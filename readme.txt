@@ -1,16 +1,6 @@
-=== Alt Manager ===
-Contributors: arabianmido, freemius
-Tags: alt manager, alt attribute, alt tag, Alt Text, title attribute, alt manager
-Requires at least: 2.8.0
-Tested up to: 5.3.2
-Requires PHP: 5.2.4
-Stable tag: trunk
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 
 
-== Description ==
 <p>The Alt Manager plugin is a simple plugin that changes images Alt and Title text attributes on your (Pages - Posts) separately to your website name or to your (post or page) title.</p>
 
 <p><strong>Free Plugin Features</strong></p>
