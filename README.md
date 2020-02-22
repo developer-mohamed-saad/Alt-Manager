@@ -39,5 +39,3 @@ Just install the plugin on your WordPress website and then you will be able to c
 <dd>Just install and activate the plugin then enjoy the simple settings on WordPress admin dashboard that controls alt and title attributes </dd>
 </dl>
 
-== Screenshots ==
-1. Alt Manager Admin settings
