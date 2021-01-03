@@ -1,5 +1,4 @@
 == Description ==
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l0SNwa5RJdQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p>Alt Manager plugin bulk changes images Alt and Title attributes text on your (Pages - Posts - products) separately to your Website name or to (post - page - product) title.</p>
 
