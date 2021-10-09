@@ -1,0 +1,24 @@
+.alm-heading span.dashicons.dashicons-images-alt2 {
+    vertical-align: middle;
+    padding: 5px;
+}
+.fs-full-size-wrapper {
+    margin: 0;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    width: 100%;
+    opacity: 0;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+    background: rgb(241 241 241 / 49%)!important;
+    opacity: 1;
+
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    padding-left: 5px;
+}
+.select2-container--default .select2-search--inline {
+    position: absolute;
+    left: 0;
+    right: auto;
+}
