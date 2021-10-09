@@ -91,13 +91,16 @@ Make sure you are inspecting image element not a background image.
 = 1.3.0 =
 * Fixed empty alt and title.
 * Added homepage latest posts default settings.
+  
 = 1.4.0 =
 * Fixed cache bug.
 * added multiselect options.
 * added image attachment values to options.
 * added Site Description to supported values.
+  
 = 1.4.3 =
 * Fixed admin multiselect issue.
 * Fixed Beaver Builder conflict.
+  
 = 1.4.5 =
 * Fixed attachment caption.
