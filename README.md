@@ -1,18 +1,5 @@
-=== Alt Manager ===
-Contributors: arabianmido, freemius
-Tags: alt, Alt Text, Google images, seo, images seo, alt attribute, alt tag, image title, title attribute,title tag , product
-Requires at least: 2.8.0
-Tested up to: 5.8
-Requires PHP: 5.2.4
-Stable tag: 1.4.5
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
-
-
 
 == Description ==
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FyR9kdrL-ck" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <p>Alt Manager is a WordPress image alt text plugin that bulk generate and change WordPress images Alt and Title attributes text and fix empty values on your ( Pages – Posts )[Free Version] ( Products – Custom Post Type )[Premium Version] separately to several dynamic related values, This plugin is a full solution for generating dynamic alt and title values.</p>
 
 <p>This Plugin bulk changes images Alt and Title attributes immediately on your website front end so you don’t need to change image info on media library.</p>
@@ -66,6 +53,8 @@ License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 <p><strong>Got any issues:</strong></p>
 <p>Contact via <a href="https://wordpress.org/support/plugin/alt-manager/" >Plugin support forums</a>.</p>
 <p><a href="https://wpsaad.com/support/"><strong>Premium Version Support</strong></a></p> 
+  
+<p><strong>Premium Version:</strong></p>
 <p><strong><a href="https://wpsaad.com/alt-manager-wordpress-image-alt-text-plugin" >Upgrade To Premium Version</a></strong></p>
 
 
