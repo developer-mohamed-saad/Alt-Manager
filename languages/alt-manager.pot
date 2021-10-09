@@ -1,0 +1,162 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Alt Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-01 16:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: inc/alm-admin.php:30 inc/alm-admin.php:78
+msgid "Page Title"
+msgstr ""
+
+#: inc/alm-admin.php:35 inc/alm-admin.php:83 inc/alm-admin.php:131
+#: inc/alm-admin.php:180 inc/alm-admin.php:228
+msgid "Site Name"
+msgstr ""
+
+#: inc/alm-admin.php:39 inc/alm-admin.php:87 inc/alm-admin.php:135
+#: inc/alm-admin.php:184 inc/alm-admin.php:232
+msgid "Site Description"
+msgstr ""
+
+#: inc/alm-admin.php:43 inc/alm-admin.php:91 inc/alm-admin.php:139
+#: inc/alm-admin.php:188 inc/alm-admin.php:236
+msgid "Image Alt"
+msgstr ""
+
+#: inc/alm-admin.php:47 inc/alm-admin.php:95 inc/alm-admin.php:143
+#: inc/alm-admin.php:192 inc/alm-admin.php:240
+msgid "Image Name"
+msgstr ""
+
+#: inc/alm-admin.php:51 inc/alm-admin.php:99 inc/alm-admin.php:147
+#: inc/alm-admin.php:196 inc/alm-admin.php:244
+msgid "Image Caption"
+msgstr ""
+
+#: inc/alm-admin.php:55 inc/alm-admin.php:103 inc/alm-admin.php:151
+#: inc/alm-admin.php:200 inc/alm-admin.php:248
+msgid "Image Description"
+msgstr ""
+
+#: inc/alm-admin.php:126 inc/alm-admin.php:223
+msgid "Post Title"
+msgstr ""
+
+#: inc/alm-admin.php:175
+msgid "Product Title"
+msgstr ""
+
+#: inc/alm-admin.php:271
+msgid "Get Alt Manager Premium Features"
+msgstr ""
+
+#: inc/alm-admin.php:274
+msgid "Upgrade Now!"
+msgstr ""
+
+#: inc/alm-admin.php:285
+msgid "Alt Manager Settings"
+msgstr ""
+
+#: inc/alm-admin.php:301
+msgid "Homepage Images Settings"
+msgstr ""
+
+#: inc/alm-admin.php:305
+msgid "Home Images Alt"
+msgstr ""
+
+#: inc/alm-admin.php:331
+msgid "Home Images Title"
+msgstr ""
+
+#: inc/alm-admin.php:358
+msgid "Note: "
+msgstr ""
+
+#: inc/alm-admin.php:358
+msgid ""
+"If homepage is set to Your latest posts alt and title will be site name by "
+"default."
+msgstr ""
+
+#: inc/alm-admin.php:363
+msgid "Pages Images Settings"
+msgstr ""
+
+#: inc/alm-admin.php:367
+msgid "Pages Images Alt"
+msgstr ""
+
+#: inc/alm-admin.php:393
+msgid "Pages Images Title"
+msgstr ""
+
+#: inc/alm-admin.php:418
+msgid "Posts Images Settings"
+msgstr ""
+
+#: inc/alm-admin.php:422
+msgid "Posts Images Alt"
+msgstr ""
+
+#: inc/alm-admin.php:448
+msgid "Posts Images Title"
+msgstr ""
+
+#: inc/alm-admin.php:476
+msgid "Products Images Settings"
+msgstr ""
+
+#: inc/alm-admin.php:480
+msgid "Products Images Alt"
+msgstr ""
+
+#: inc/alm-admin.php:506
+msgid "Products Images Title"
+msgstr ""
+
+#: inc/alm-admin.php:535
+msgid "Custom Post Type Images Settings"
+msgstr ""
+
+#: inc/alm-admin.php:539
+msgid "Custom Post Type Images Alt"
+msgstr ""
+
+#: inc/alm-admin.php:566
+msgid "Custom Post Type Images Title"
+msgstr ""
+
+#. Name of the plugin
+msgid "Alt Manager"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This Plugin blulk changes images Alt and Title attributes for WordPress "
+"images"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wpsaad.com/alt-manager-wordpress-image-alt-text-plugin"
+msgstr ""
+
+#. Author of the plugin
+msgid "Mohamed Saad"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpsaad.com"
+msgstr ""
