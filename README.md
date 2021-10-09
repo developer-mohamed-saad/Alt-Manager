@@ -84,9 +84,6 @@ Make sure you are inspecting image element not a background image.
 </dl>
 
 
-== Screenshots ==
-1. Alt Manager Admin settings
-
 == Changelog ==
   
 = 1.3.0 =
