@@ -1,5 +1,5 @@
 
-== Description ==
+<p><strong>== Description ==</strong></p>
 <p>Alt Manager is a WordPress image alt text plugin that bulk generate and change WordPress images Alt and Title attributes text and fix empty values on your ( Pages – Posts )[Free Version] ( Products – Custom Post Type )[Premium Version] separately to several dynamic related values, This plugin is a full solution for generating dynamic alt and title values.</p>
 
 <p>This Plugin bulk changes images Alt and Title attributes immediately on your website front end so you don’t need to change image info on media library.</p>
