@@ -88,6 +88,7 @@ Make sure you are inspecting image element not a background image.
 1. Alt Manager Admin settings
 
 == Changelog ==
+  
 = 1.3.0 =
 * Fixed empty alt and title.
 * Added homepage latest posts default settings.
