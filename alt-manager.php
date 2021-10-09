@@ -3,18 +3,19 @@
 /**
  * @package ALM
  * @author Mohamed Saad
- * @link https://mohamed-saad.000webhostapp.com/
+ * @link https://wpsaad.com
  * @since 1.0.0
  */
 /**
  * Plugin Name: Alt Manager
- * plugin URI: webdevelopersaad.com/plugin
- * Description: This Plugin Manages alt attribes for WordPress images
- * Version: 1.0.0
+ * plugin URI: https://wpsaad.com/alt-manager-wordpress-image-alt-text-plugin
+ * Description: Alt Manager bulk generate and change images Alt and Title attributes for WordPress images and fix empty values to a dynamic related values.
+ * Version: 1.4.5
  * Author: Mohamed Saad
- * Author URI: webdevelopersaad.com
+ * Author URI: https://wpsaad.com
  * License: GPLv2 or later
- * Text Domain: ALM
+ * Text Domain: alt-manager
+ * Domain Path: /languages
  */
 defined( 'ABSPATH' ) or die;
 
@@ -35,6 +36,7 @@ if ( function_exists( 'am_fs' ) ) {
                     'id'             => '5548',
                     'slug'           => 'alt-manager',
                     'type'           => 'plugin',
+                    'navigation'     => 'tabs',
                     'public_key'     => 'pk_07c4f76da780308f88546ce3da78a',
                     'is_premium'     => false,
                     'premium_suffix' => 'premium plan',
@@ -63,7 +65,14 @@ if ( function_exists( 'am_fs' ) ) {
     add_action( 'admin_enqueue_scripts', 'alm_style' );
     function alm_style()
     {
-        wp_enqueue_style( 'alm-admin-style', plugins_url( '/assets/alm-admin-styles.css', __FILE__ ) );
+        wp_enqueue_script( 'select2-script', plugins_url( '/assets/js/select2.min.js', __FILE__ ) );
+        wp_enqueue_style( 'select2-style', plugins_url( '/assets/css/select2.min.css', __FILE__ ) );
+        wp_enqueue_script( 'alm-admin-script', plugins_url( '/assets/js/alm-admin-script.js', __FILE__ ) );
+        wp_enqueue_style( 'alm-admin-style', plugins_url( '/assets/css/alm-admin-styles.css', __FILE__ ) );
+        if ( is_rtl() ) {
+            wp_enqueue_style( 'alm-admin-style-rtl', plugins_url( '/assets/css/alm-admin-styles-rtl.css', __FILE__ ) );
+        }
+        // wp_enqueue_script('jquery-ui-sortable');
     }
     
     //load plugin required files
@@ -71,14 +80,16 @@ if ( function_exists( 'am_fs' ) ) {
     function alm_load()
     {
         $current_user = wp_get_current_user();
-        
+        require_once plugin_dir_path( __FILE__ ) . 'inc/alm-functions.php';
+        require_once plugin_dir_path( __FILE__ ) . 'inc/alm-empty-generator.php';
+        require_once plugin_dir_path( __FILE__ ) . 'inc/alm-activate.php';
+        register_activation_hook( __FILE__, array( 'almActivate', 'activate' ) );
         if ( user_can( $current_user, 'manage_options' ) ) {
-            require_once plugin_dir_path( __FILE__ ) . 'inc/alm-functions.php';
-            require_once plugin_dir_path( __FILE__ ) . 'inc/alm-activate.php';
-            register_activation_hook( __FILE__, array( 'almActivate', 'activate' ) );
             include_once plugin_dir_path( __FILE__ ) . 'inc/alm-admin.php';
         }
-    
+        if ( !function_exists( 'file_get_html' ) ) {
+            require_once plugin_dir_path( __FILE__ ) . 'inc/simple_html_dom.php';
+        }
     }
 
 }
